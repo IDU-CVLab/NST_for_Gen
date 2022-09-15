@@ -18,3 +18,6 @@
     - scikit-image=0.16.2
     - scikit-learn=0.23.1
     - salilab::py-opencv=3.4.2
+
+# Pulling the docker image from dockerhub:
+     $ sudo docker pull kenanmorani/nst_for_gen:latest
