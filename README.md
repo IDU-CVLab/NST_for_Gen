@@ -28,7 +28,7 @@
  
  > $ docker login <br>
    > username kenanmorani <br>
-   > password {request the password}
+   > password <Tubitak119e578>
  
  * If you want to run docker as non-root user then you need to add it to the docker group as in [here](https://stackoverflow.com/questions/48957195/how-to-fix-docker-got-permission-denied-issue).
  
