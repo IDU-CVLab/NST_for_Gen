@@ -21,12 +21,12 @@
 
 # Pulling the docker image from dockerhub:
 * Request the docker image using the command:
-     $ docker pull kenanmorani/nst_for_gen:latest
+  >   $ sudo docker pull kenanmorani/nst_for_gen:latest
      
  * To pull the docker image from dockerhub, make sure you have installed docker engine as in [here](https://docs.docker.com/engine/install/ubuntu/) for ubuntu system. 
  You also need to log in to our dockerhub account with the username ID {kenanmorani} and the password; *please send an email to request the password*.
  
- > $ docker login <br>
+ > $ sudo docker login <br>
    > username kenanmorani <br>
    > password <Tubitak119e578>
  
