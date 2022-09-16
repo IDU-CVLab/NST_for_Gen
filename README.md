@@ -30,6 +30,8 @@
    > username kenanmorani <br>
    > password <Tubitak119e578>
  
+ * nvida/cuda should be present to be able to use the GPU for this algorithm.
+    
  * If you want to run docker as non-root user then you need to add it to the docker group as in [here](https://stackoverflow.com/questions/48957195/how-to-fix-docker-got-permission-denied-issue).
  
 Please send me an email in csae of issues (kenan.morani@gmail.com).
