@@ -30,6 +30,6 @@
    > username kenanmorani <br>
    > password {request the password}
  
- * In case you get permission denied while trying to access the image, you should try to create a new docker group and give it accessable permission as a root as in [here](https://stackoverflow.com/questions/48957195/how-to-fix-docker-got-permission-denied-issue).
+ * If you want to run docker as non-root user then you need to add it to the docker group as in [here](https://stackoverflow.com/questions/48957195/how-to-fix-docker-got-permission-denied-issue).
  
 Please send me an email in csae of any issues (kenan.morani@gmail.com).
