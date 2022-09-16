@@ -28,7 +28,7 @@
  
  $ docker login <br>
     username kenanmorani <br>
-    password <request the password>
+    password {request the password}
  
  * In case you get permission denied while trying to access the image, you should try to create a new docker group and give it accessable permission as a root as in [here](https://stackoverflow.com/questions/48957195/how-to-fix-docker-got-permission-denied-issue).
  
