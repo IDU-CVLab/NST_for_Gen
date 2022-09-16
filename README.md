@@ -26,7 +26,7 @@
  * To pull the docker image from dockerhub, make sure you have installed docker engine as in [here](https://docs.docker.com/engine/install/ubuntu/) for ubuntu system. 
  You also need to log in to our dockerhub account with the username ID {kenanmorani} and the password; *please send an email to request the password*.
  
- $ docker login
+ $ docker login <br>
     username kenanmorani <br>
     password
  
