@@ -27,8 +27,8 @@
  You also need to log in to our dockerhub account with the username ID {kenanmorani} and the password; *please send an email to request the password*.
  
  $ docker login
-   > username kenanmorani
-   > password
+    username kenanmorani <br>
+    password
  
  * In case you get permission denied while trying to access the image, you should try to create a new docker group and give it accessable permission as a root as in [here](https://stackoverflow.com/questions/48957195/how-to-fix-docker-got-permission-denied-issue).
  
