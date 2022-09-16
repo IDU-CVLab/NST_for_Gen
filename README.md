@@ -20,5 +20,7 @@
     - salilab::py-opencv=3.4.2
 
 # Pulling the docker image from dockerhub:
-The docker image is saved on docker hub, and can be requested using the command:
+* Install docker via the command line on a Linux System; use "sudo" command if required: 
+      $ docker pull kenanmorani/nst_for_gen:latest
+* Request the docker image using the command:
      $ sudo docker pull kenanmorani/nst_for_gen:latest
