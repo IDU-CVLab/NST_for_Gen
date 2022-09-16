@@ -32,4 +32,4 @@
  
  * If you want to run docker as non-root user then you need to add it to the docker group as in [here](https://stackoverflow.com/questions/48957195/how-to-fix-docker-got-permission-denied-issue).
  
-Please send me an email in csae of any issues (kenan.morani@gmail.com).
+Please send me an email in csae of issues (kenan.morani@gmail.com).
