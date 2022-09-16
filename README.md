@@ -21,11 +21,15 @@
 
 # Pulling the docker image from dockerhub:
 * Request the docker image using the command:
-     $ sudo docker pull kenanmorani/nst_for_gen:latest
+     $ docker pull kenanmorani/nst_for_gen:latest
      
- * To pull the docker image from dockerhub, make sure you have installed docker enginer as in [here](https://docs.docker.com/engine/install/ubuntu/). 
+ * To pull the docker image from dockerhub, make sure you have installed docker engine as in [here](https://docs.docker.com/engine/install/ubuntu/) for ubuntu system. 
  You also need to log in to our dockerhub account with the username ID {kenanmorani} and the password; *please send an email to request the password*.
  
- * In case you get permission denied while trying to access the image, you should try the solution to create a new docker group and give it accessable permission as a root as in [here](https://stackoverflow.com/questions/48957195/how-to-fix-docker-got-permission-denied-issue).
+ $ docker login
+   > username kenanmorani
+   > password
+ 
+ * In case you get permission denied while trying to access the image, you should try to create a new docker group and give it accessable permission as a root as in [here](https://stackoverflow.com/questions/48957195/how-to-fix-docker-got-permission-denied-issue).
  
 Please send me an email in csae of any issues (kenan.morani@gmail.com).
