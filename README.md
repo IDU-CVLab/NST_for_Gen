@@ -49,7 +49,7 @@ For Docker container:
 $ . $bashrc  >/dev/null && conda activate env-torch  >/dev/null && cd /NST_for_Gen && python src/test.py --content_dir "assets/sample_input/masks/" --style_dir "assets/sample_input/data/" --style_mask_dir "assets/sample_input/masks/"
 ```
 ### Example training command:
-- First, copy dataset to the "assets/dataset" directory.
+- Copy dataset to the "assets/dataset" directory, then run
 ```bash
 $ python src/train.py --content_dir "assets/dataset/masks" --style_dir "assets/dataset/data"
 ```
@@ -58,7 +58,7 @@ For Docker container:
 $ . $bashrc  >/dev/null && conda activate env-torch  >/dev/null && cd /NST_for_Gen && python src/train.py --content_dir "assets/dataset/masks" --style_dir "assets/dataset/data"
 ```
 ### Example evaluation data generation command:
-- First, copy dataset to the "assets/dataset" directory.
+- Copy dataset to the "assets/dataset" directory, then run
 ```bash
 $ python src/eval.py --content_dir "assets/dataset/masks" --style_dir "assets/dataset/data"
 ```
