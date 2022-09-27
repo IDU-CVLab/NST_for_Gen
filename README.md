@@ -69,7 +69,7 @@ $ . $bashrc  >/dev/null && conda activate env-torch  >/dev/null && cd /NST_for_G
 Please send me an email in csae of issues (kenan.morani@gmail.com).
 
 ##Citation
-* If you find this code or paper useful, you can cite our paper by:
+* If you find the work useful, please consider citing our paper:
 > TODO: Get citation info.
 
 ##Acknowledgements
