@@ -31,7 +31,7 @@ Note: In case Conda cannot install the dependencies with your system, you may tr
  * To run the container:
   >   $ docker run --gpus all -it -v "$PWD/assets:/NST_for_Gen/assets" nst_for_gen:latest
  
- * nvida/cuda should be present to be able to use the GPU for this algorithm.
+ * Nvidia/cuda should be present to be able to use the GPU for this algorithm.
     
  * If you want to run docker as non-root user then you need to add your user to the docker group as in [here](https://stackoverflow.com/questions/48957195/how-to-fix-docker-got-permission-denied-issue).
  
