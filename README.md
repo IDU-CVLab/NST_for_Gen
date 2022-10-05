@@ -4,7 +4,7 @@
 * The assets folder also includes the saved models used for this algorithm. This files are not included in the docker image as it follows in the explanation. You need to manually replace those files locally in the same directory path as above if you choose to set up via our saved docker image.
 
 ## Setup
-Installation can be done in two ways:
+You can setup in either of the following two ways:
 1. Through Conda environment (Linux/macOS/Windows)
 2. Through a Docker image (Linux/macOS)
 
