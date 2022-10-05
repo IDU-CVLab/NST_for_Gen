@@ -42,7 +42,7 @@ Note: In case Conda cannot install the dependencies with your system, you may tr
  * For giving a user full permissions on the generated files, run the following command in the host terminal:
    >   $ sudo chown -R $(id -u):$(id -g) assets/
 
-#### Running the algorithm
+#### Running the codes
 After running the container, you are ready to run the full algorithm through code including generating data,training on the generated data, and testing the generated data.
 
 ##### Example testing command:
