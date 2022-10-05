@@ -21,6 +21,8 @@ To install rest of the dependencies, you can use the conda commands:
 Note: In case Conda cannot install the dependencies with your system, you may try to remove version specifications in the "conda_env_app.yml" file, but that may cause inconsistencies in the code.
 
 ### 2/2) Setup through the Docker Image
+You need to first pull the docekr image from dockerhub, build a docker container from the image, and then run the full code.
+
 #### Request the docker image using the command:
   >   $ sudo docker pull kenanmorani/nst_for_gen:latest
 ** The docker image includes the full algorithm (generating part and training and testing segmetnation part). Thus, pulling the image could take up to three hours.
