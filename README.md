@@ -21,6 +21,7 @@ Note: In case Conda cannot install the dependencies with your system, you may tr
 ### 2/2) Setup through the Docker Image
 * Request the docker image using the command:
   >   $ sudo docker pull kenanmorani/nst_for_gen:latest
+  Pulling the image completly should take aproximately three hours.
      
  * To pull the docker image from dockerhub, make sure you have installed docker engine as in [here](https://docs.docker.com/engine/install/ubuntu/) for ubuntu system. 
  You also need to log in to our dockerhub account with the username ID {kenanmorani} and the password; *please send an email to request the password*.
