@@ -21,7 +21,7 @@ To install rest of the dependencies, you can use the conda commands:
 Note: In case Conda cannot install the dependencies with your system, you may try to remove version specifications in the "conda_env_app.yml" file, but that may cause inconsistencies in the code.
 
 ### 2/2) Setup through the Docker Image
-You need to first pull the docekr image from dockerhub, build a docker container from the image, and then run the full code.
+You need to firstly request the docekr image from dockerhub, secondly build a docker container from the image, and finally run the full code.
 
 #### Request the docker image using the command:
   >   $ sudo docker pull kenanmorani/nst_for_gen:latest
@@ -33,6 +33,7 @@ You need to first pull the docekr image from dockerhub, build a docker container
      > $ sudo docker login <br>
        > username kenanmorani <br>
        > password <Tubitak119e578>
+       
 #### Run the container:
   >   $ docker run --gpus all -it -v "$PWD/assets:/NST_for_Gen/assets" nst_for_gen:latest
    
