@@ -47,10 +47,10 @@ You need to firstly request the docekr image from dockerhub, secondly build a do
  * For giving a user full permissions on the generated files, run the following command in the host terminal:
    >   $ sudo chown -R $(id -u):$(id -g) assets/
 
-#### Running the codes
+## Running the codes
 After running the container, you are ready to run the full algorithm through code including generating data,training on the generated data, and testing the generated data.
 
-##### Example testing command:
+### Example testing command:
 ```bash
 $ python src/test.py --content_dir "assets/sample_input/masks/" --style_dir "assets/sample_input/data/" --style_mask_dir "assets/sample_input/masks/"
 ```
@@ -58,7 +58,7 @@ _For Docker container:_
 ```bash
 $ . $bashrc  >/dev/null && conda activate env-torch  >/dev/null && cd /NST_for_Gen && python src/test.py --content_dir "assets/sample_input/masks/" --style_dir "assets/sample_input/data/" --style_mask_dir "assets/sample_input/masks/"
 ```
-##### Example training command:
+### Example training command:
 - Copy dataset to the "assets/dataset" directory, then run
 ```bash
 $ python src/train.py --content_dir "assets/dataset/masks" --style_dir "assets/dataset/data"
@@ -67,7 +67,7 @@ _For Docker container:_
 ```bash
 $ . $bashrc  >/dev/null && conda activate env-torch  >/dev/null && cd /NST_for_Gen && python src/train.py --content_dir "assets/dataset/masks" --style_dir "assets/dataset/data"
 ```
-##### Example evaluation of data generation command:
+### Example evaluation of data generation command:
 - Copy dataset to the "assets/dataset" directory, then run
 ```bash
 $ python src/eval.py --content_dir "assets/dataset/masks" --style_dir "assets/dataset/data"
