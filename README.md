@@ -1,5 +1,7 @@
 # NST_for_Gen
-PyTorch implementation of Neural Style Transfer (NST) for image generation method.
+* PyTorch implementation of Neural Style Transfer (NST) for image generation method.
+* The "assets" folder contains sample of input images to serve as an example to for replicating the code. You need to replace the input images in this folder with your own input images to be able to run the codes.
+*
 
 ## Setup
 Installation can be done in two ways:
