@@ -48,7 +48,7 @@ You need to firstly request the docekr image from dockerhub, secondly build a do
    >   $ sudo chown -R $(id -u):$(id -g) assets/
 
 ## Running the codes
-After running the container, you are ready to run the full algorithm through code including generating data,training on the generated data, and testing the generated data.
+After running the container, you are ready to run the full codes for generating data,training, and testing on the generated data.
 
 ### Example testing command:
 ```bash
