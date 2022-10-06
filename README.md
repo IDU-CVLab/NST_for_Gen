@@ -42,7 +42,7 @@ You need to firstly request the docekr image from dockerhub, secondly build a do
 
   >   $ docker run --gpus all -it -v "$PWD/assets:/NST_for_Gen/assets" kenanmorani/nst_for_gen:latest
   
-  * If you want to try and run the code without gpu capabilities, you may detete "--gpus" and "all" from the code above.
+  * If you want to try and run the code without gpu capabilities, you may detete "--gpus all" from the command above.
    
  * If you want to run docker as non-root user then you need to add your user to the docker group as in [here](https://stackoverflow.com/questions/48957195/how-to-fix-docker-got-permission-denied-issue).
  
@@ -53,14 +53,14 @@ You need to firstly request the docekr image from dockerhub, secondly build a do
    >   $ sudo chown -R $(id -u):$(id -g) assets/
 
 ## Running the codes
-After running the container, you are ready to run the full codes for generating data,training, and testing on the generated data.
+After installations, you are ready to run the full codes for generating data,training, and testing on the generated data.
 
 ### Example testing command:
 * This command runs on the sampled images in the 'assets' folder. Please change the directories in the code to reflect your own project directories.
 ```bash
 $ python src/test.py --content_dir "assets/sample_input/masks/" --style_dir "assets/sample_input/data/" --style_mask_dir "assets/sample_input/masks/"
 ```
-_For Docker container:_
+_For installation with Docker Image, run the container and the following command in it:_
 ```bash
 # . $bashrc  >/dev/null && conda activate env-torch  >/dev/null && cd /NST_for_Gen && python src/test.py --content_dir "assets/sample_input/masks/" --style_dir "assets/sample_input/data/" --style_mask_dir "assets/sample_input/masks/"
 ```
@@ -69,7 +69,7 @@ _For Docker container:_
 ```bash
 $ python src/train.py --content_dir "assets/dataset/masks" --style_dir "assets/dataset/data"
 ```
-_For Docker container:_
+_For installation with Docker Image, run the container and the following command in it:_
 ```bash
 # . $bashrc  >/dev/null && conda activate env-torch  >/dev/null && cd /NST_for_Gen && python src/train.py --content_dir "assets/dataset/masks" --style_dir "assets/dataset/data"
 ```
@@ -78,7 +78,7 @@ _For Docker container:_
 ```bash
 $ python src/eval.py --content_dir "assets/dataset/masks" --style_dir "assets/dataset/data"
 ```
-_For Docker container:_
+_For installation with Docker Image, run the container and the following command in it:_
 ```bash
 # . $bashrc  >/dev/null && conda activate env-torch  >/dev/null && cd /NST_for_Gen && python src/eval.py --content_dir "assets/dataset/masks" --style_dir "assets/dataset/data"
 ```
