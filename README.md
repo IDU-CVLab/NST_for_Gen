@@ -8,7 +8,7 @@ You can setup in either of the following two ways:
 1. Through Conda environment (Linux/macOS/Windows)
 2. Through a Docker image (Linux/macOS)
 
-* [Nvidia/cuda](https://towardsdatascience.com/deep-learning-gpu-installation-on-ubuntu-18-4-9b12230a1d31) should be present to be able to use the GPU for this algorithm.
+* It is recommended that you use GPU capabilities to run the codes. [Nvidia/cuda](https://towardsdatascience.com/deep-learning-gpu-installation-on-ubuntu-18-4-9b12230a1d31) should be present to be able to use the GPU.
 
 ### 1/2) Setup through Conda environment
 This project is prepared upon:
