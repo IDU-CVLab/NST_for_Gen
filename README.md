@@ -27,7 +27,7 @@ You need to firstly request the docekr image from dockerhub, secondly build a do
 
 #### Request the docker image using the command:
   >   $ sudo docker pull kenanmorani/nst_for_gen:latest
-* The docker image includes the full algorithm (generating part and training and testing segmetnation part). Thus, pulling the image could take up to three hours.
+* The docker image includes full algorithm (generating part and training and testing segmetnation part). Thus, pulling the image could take up to three hours.
      
  * To pull the docker image from dockerhub, make sure you have installed docker engine as in [here](https://docs.docker.com/engine/install/ubuntu/) for ubuntu system. 
  You also need to log in to our dockerhub account with the username ID {kenanmorani} and the password; *please send an email to request the password*.
@@ -64,7 +64,7 @@ _For Docker container:_
 # . $bashrc  >/dev/null && conda activate env-torch  >/dev/null && cd /NST_for_Gen && python src/test.py --content_dir "assets/sample_input/masks/" --style_dir "assets/sample_input/data/" --style_mask_dir "assets/sample_input/masks/"
 ```
 ### Example training command:
-- Copy dataset to the "assets/dataset" directory, then run
+- Copy dataset to the "assets/dataset" directory, cd the directory and then run
 ```bash
 $ python src/train.py --content_dir "assets/dataset/masks" --style_dir "assets/dataset/data"
 ```
@@ -73,7 +73,7 @@ _For Docker container:_
 # . $bashrc  >/dev/null && conda activate env-torch  >/dev/null && cd /NST_for_Gen && python src/train.py --content_dir "assets/dataset/masks" --style_dir "assets/dataset/data"
 ```
 ### Example evaluation of data generation command:
-- Copy dataset to the "assets/dataset" directory, then run
+- Copy dataset to the "assets/dataset" directory, cd the directory, then run
 ```bash
 $ python src/eval.py --content_dir "assets/dataset/masks" --style_dir "assets/dataset/data"
 ```
