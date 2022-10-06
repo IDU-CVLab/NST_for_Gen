@@ -37,7 +37,12 @@ You need to firstly request the docekr image from dockerhub, secondly build a do
        > password <Tubitak119e578>
        
 #### Run the container:
+
+* You need to download the "assets" folder to your local directory and "cd" your directory
+
   >   $ docker run --gpus all -it -v "$PWD/assets:/NST_for_Gen/assets" kenanmorani/nst_for_gen:latest
+  
+  * If you want to try and run the code without gpu capabilities, you may detete "--gpus" and "all" from the code above.
    
  * If you want to run docker as non-root user then you need to add your user to the docker group as in [here](https://stackoverflow.com/questions/48957195/how-to-fix-docker-got-permission-denied-issue).
  
