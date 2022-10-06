@@ -38,6 +38,7 @@ You need to firstly request the docekr image from dockerhub, secondly build a do
        
 #### Run the container:
 * You need to download the "assets" folder to your local directory and "cd" your local directory to run the following commands from your local directory which contain the "assets" folder.
+* To try the algorithm on your own images and masks, you need to replace the images samples in the folders with your own.
 
   >   $ docker run --gpus all -it -v "$PWD/assets:/NST_for_Gen/assets" kenanmorani/nst_for_gen:latest
   
