@@ -16,7 +16,7 @@ This project is prepared upon:
 - CUDA 10.0 (in case of using GPU)
 - Conda
 
-To install rest of the dependencies, you can use the conda commands:
+To install the rest of the dependencies, you can use the conda commands:
             
     conda env create --name=env-torch --file /NST_for_Gen/conda_env_app.yml
     conda activate env-torch
