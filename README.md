@@ -61,7 +61,7 @@ $ python src/test.py --content_dir "assets/sample_input/masks/" --style_dir "ass
 ```
 _For Docker container:_
 ```bash
-$ . $bashrc  >/dev/null && conda activate env-torch  >/dev/null && cd /NST_for_Gen && python src/test.py --content_dir "assets/sample_input/masks/" --style_dir "assets/sample_input/data/" --style_mask_dir "assets/sample_input/masks/"
+# . $bashrc  >/dev/null && conda activate env-torch  >/dev/null && cd /NST_for_Gen && python src/test.py --content_dir "assets/sample_input/masks/" --style_dir "assets/sample_input/data/" --style_mask_dir "assets/sample_input/masks/"
 ```
 ### Example training command:
 - Copy dataset to the "assets/dataset" directory, then run
@@ -70,7 +70,7 @@ $ python src/train.py --content_dir "assets/dataset/masks" --style_dir "assets/d
 ```
 _For Docker container:_
 ```bash
-$ . $bashrc  >/dev/null && conda activate env-torch  >/dev/null && cd /NST_for_Gen && python src/train.py --content_dir "assets/dataset/masks" --style_dir "assets/dataset/data"
+# . $bashrc  >/dev/null && conda activate env-torch  >/dev/null && cd /NST_for_Gen && python src/train.py --content_dir "assets/dataset/masks" --style_dir "assets/dataset/data"
 ```
 ### Example evaluation of data generation command:
 - Copy dataset to the "assets/dataset" directory, then run
@@ -79,7 +79,7 @@ $ python src/eval.py --content_dir "assets/dataset/masks" --style_dir "assets/da
 ```
 _For Docker container:_
 ```bash
-$ . $bashrc  >/dev/null && conda activate env-torch  >/dev/null && cd /NST_for_Gen && python src/eval.py --content_dir "assets/dataset/masks" --style_dir "assets/dataset/data"
+# . $bashrc  >/dev/null && conda activate env-torch  >/dev/null && cd /NST_for_Gen && python src/eval.py --content_dir "assets/dataset/masks" --style_dir "assets/dataset/data"
 ```
 * Please send me an email in csae of issues or to request the ducker hub password (kenan.morani@gmail.com).
 
