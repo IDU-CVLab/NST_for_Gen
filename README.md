@@ -56,6 +56,7 @@ You need to firstly request the docekr image from dockerhub, secondly build a do
 After running the container, you are ready to run the full codes for generating data,training, and testing on the generated data.
 
 ### Example testing command:
+* This command runs on the sampled images in the 'assets' folder. Please change the directories in the code to reflect your own project directories.
 ```bash
 $ python src/test.py --content_dir "assets/sample_input/masks/" --style_dir "assets/sample_input/data/" --style_mask_dir "assets/sample_input/masks/"
 ```
@@ -64,6 +65,7 @@ _For Docker container:_
 # . $bashrc  >/dev/null && conda activate env-torch  >/dev/null && cd /NST_for_Gen && python src/test.py --content_dir "assets/sample_input/masks/" --style_dir "assets/sample_input/data/" --style_mask_dir "assets/sample_input/masks/"
 ```
 ### Example training command:
+* Please change the directories in the code to reflect your own project directories.
 ```bash
 $ python src/train.py --content_dir "assets/dataset/masks" --style_dir "assets/dataset/data"
 ```
@@ -72,6 +74,7 @@ _For Docker container:_
 # . $bashrc  >/dev/null && conda activate env-torch  >/dev/null && cd /NST_for_Gen && python src/train.py --content_dir "assets/dataset/masks" --style_dir "assets/dataset/data"
 ```
 ### Example evaluation of data generation command:
+* Please change the directories in the code to reflect your own project directories.
 ```bash
 $ python src/eval.py --content_dir "assets/dataset/masks" --style_dir "assets/dataset/data"
 ```
