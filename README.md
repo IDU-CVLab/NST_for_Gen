@@ -37,8 +37,7 @@ You need to firstly request the docekr image from dockerhub, secondly build a do
        > password <Tubitak119e578>
        
 #### Run the container:
-
-* You need to download the "assets" folder to your local directory and "cd" your directory
+* You need to download the "assets" folder to your local directory and "cd" your local directory to run the following commands from your local directory which contain the "assets" folder.
 
   >   $ docker run --gpus all -it -v "$PWD/assets:/NST_for_Gen/assets" kenanmorani/nst_for_gen:latest
   
@@ -64,7 +63,6 @@ _For Docker container:_
 # . $bashrc  >/dev/null && conda activate env-torch  >/dev/null && cd /NST_for_Gen && python src/test.py --content_dir "assets/sample_input/masks/" --style_dir "assets/sample_input/data/" --style_mask_dir "assets/sample_input/masks/"
 ```
 ### Example training command:
-- Copy dataset to the "assets/dataset" directory, cd the directory and then run
 ```bash
 $ python src/train.py --content_dir "assets/dataset/masks" --style_dir "assets/dataset/data"
 ```
@@ -73,7 +71,6 @@ _For Docker container:_
 # . $bashrc  >/dev/null && conda activate env-torch  >/dev/null && cd /NST_for_Gen && python src/train.py --content_dir "assets/dataset/masks" --style_dir "assets/dataset/data"
 ```
 ### Example evaluation of data generation command:
-- Copy dataset to the "assets/dataset" directory, cd the directory, then run
 ```bash
 $ python src/eval.py --content_dir "assets/dataset/masks" --style_dir "assets/dataset/data"
 ```
