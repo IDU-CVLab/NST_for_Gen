@@ -1,5 +1,5 @@
 # NST_for_Gen
-* PyTorch implementation of Neural Style Transfer (NST) for image generation method.
+* PyTorch implementation of Neural Style Transfer (NST) for image generation.
 * The "assets" folder contains samples of input images to serve as an example to replicate the code. You need to replace the images with your own images if you want to use the proposed methodology.
 * The "assets" folder also includes the saved models used for this algorithm. This files are not included in the docker image as it follows in the explanation. You need to manually replace those files locally in the same directory path as above if you choose to set up via our saved docker image.
 
@@ -11,7 +11,7 @@ You can setup in either of the following two ways:
 * It is recommended that you use GPU capabilities to run the codes. [Nvidia/cuda](https://towardsdatascience.com/deep-learning-gpu-installation-on-ubuntu-18-4-9b12230a1d31) should be present to be able to use the GPU.
 
 ### 1/2) Setup through Conda environment
-This project is prepared upon:
+This project is prepared with:
 - Ubuntu 18.04
 - CUDA 10.0 (in case of using GPU)
 - Conda
