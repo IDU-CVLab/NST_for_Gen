@@ -88,10 +88,10 @@ _For installation with Docker Image, run the container and the following command
 * If you find the work useful, please consider citing the paper:
 
 @incollection{erdem2023automated,
-  title={Automated analysis of phase-contrast optical microscopy time-lapse images: application to wound healing and cell motility assays of breast cancer},
-  author={Erdem, Yusuf Sait and Ayanzadeh, Aydin and Mayal{\i}, Berkay and Bal{\i}k{\c{c}}i, Muhammed and Belli, {\"O}zge Nur and U{\c{c}}ar, Mahmut and {\"O}zyusal, {\"O}zden Yal{\c{c}}{\i}n and Okvur, Devrim Pesen and {\"O}nal, Sevgi and Morani, Kenan and others},
-  booktitle={Diagnostic Biomedical Signal and Image Processing Applications with Deep Learning Methods},
-  pages={137--154},
-  year={2023},
-  publisher={Elsevier}
+  title={Automated analysis of phase-contrast optical microscopy time-lapse images: application to wound healing and cell motility assays of breast cancer}, <br/>
+  author={Erdem, Yusuf Sait and Ayanzadeh, Aydin and Mayal{\i}, Berkay and Bal{\i}k{\c{c}}i, Muhammed and Belli, {\"O}zge Nur and U{\c{c}}ar, Mahmut and {\"O}zyusal, {\"O}zden Yal{\c{c}}{\i}n and Okvur, Devrim Pesen and {\"O}nal, Sevgi and Morani, Kenan and others}, <br/>
+  booktitle={Diagnostic Biomedical Signal and Image Processing Applications with Deep Learning Methods}, <br/>
+  pages={137--154}, <br/>
+  year={2023}, <br/>
+  publisher={Elsevier} <br/>
 }
