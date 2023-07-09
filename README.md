@@ -86,7 +86,8 @@ _For installation with Docker Image, run the container and the following command
 * Please send an email in csae of issues or to request the duckerhub password.
 
 ## Acknowledgement
-   % TO DO 
+* This work is supported by the Scientific and Technological Research Council of Turkey (TUBITAK) under grant no 119E578.
+* The data used in this study is collected under the Marie Curie IRG grant (no: FP7 PIRG08-GA-2010-27697).
 ## Citation
 * If you find the work useful, please consider citing the paper:
 
