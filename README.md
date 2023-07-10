@@ -82,7 +82,7 @@ _For installation with Docker Image, run the container and the following command
 ```bash
 # . $bashrc  >/dev/null && conda activate env-torch  >/dev/null && cd /NST_for_Gen && python src/eval.py --content_dir "assets/dataset/masks" --style_dir "assets/dataset/data"
 ```
-<br/> <br/>
+<br/>
 * Please send an email in csae of issues or to request the duckerhub password.
 
 ## Acknowledgement
