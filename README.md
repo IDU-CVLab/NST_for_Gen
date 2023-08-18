@@ -1,7 +1,7 @@
 # NST_for_Gen
 * PyTorch implementation of Neural Style Transfer (NST) for image generation.
 * The "assets" folder contains samples of input images to serve as an example to replicate the code. You need to replace the images with your own images if you want to use the proposed methodology.
-* The "assets" folder also includes the saved models used for this algorithm. This files are not included in the docker image as it follows in the explanation. You need to manually replace those files locally in the same directory path as above if you choose to set up via our saved docker image.
+* The "assets" folder also includes the saved models used for this algorithm. These files are not included in the docker image as it follows in the explanation. You need to manually replace those files locally in the same directory path as above if you choose to set up via our saved docker image.
 
 ## Setup
 You can setup in either of the following two ways:
