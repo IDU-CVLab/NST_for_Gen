@@ -44,7 +44,7 @@ You need to firstly request the docekr image from dockerhub, secondly build a do
   
   * If you want to try and run the code without gpu capabilities, you may detete "--gpus all" from the command above.
    
- * If you want to run docker as non-root user then you need to add your user to the docker group as in [here](https://stackoverflow.com/questions/48957195/how-to-fix-docker-got-permission-denied-issue).
+ * If you want to run docker as a non-root user, then you need to add your user to the docker group as in [here](https://stackoverflow.com/questions/48957195/how-to-fix-docker-got-permission-denied-issue).
  
  * In case of permission error for docker commands, run the command in the host terminal:
    >   $ newgrp docker
