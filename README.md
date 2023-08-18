@@ -49,7 +49,7 @@ You need to firstly request the docekr image from dockerhub, secondly build a do
  * In case of permission error for docker commands, run the command in the host terminal:
    >   $ newgrp docker
   
- * For giving a user full permissions on the generated files, run the following command in the host terminal:
+ * For giving a user full permissions to the generated files, run the following command in the host terminal:
    >   $ sudo chown -R $(id -u):$(id -g) assets/
 
 ## Running the codes
