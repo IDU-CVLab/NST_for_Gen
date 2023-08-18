@@ -53,7 +53,7 @@ You need to firstly request the docekr image from dockerhub, secondly build a do
    >   $ sudo chown -R $(id -u):$(id -g) assets/
 
 ## Running the codes
-After installation, you are ready to run the full codes for generating data,training, and testing on the generated data.
+After installation, you are ready to run the full codes to generate data, as well as training and testing on the generated data uaing our algorithm.
 
 ### Example testing command:
 * This command runs on the sampled images in the 'assets' folder. Please change the directories in the code to reflect your own project directories.
