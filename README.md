@@ -29,8 +29,8 @@ You need to firstly request the docekr image from dockerhub, secondly build a do
   >   $ sudo docker pull kenanmorani/nst_for_gen:latest
 * The docker image includes full algorithm (generation part, and training and testing segmetnation part). Thus, pulling the image could take up to three hours.
      
- * To pull the docker image from dockerhub, make sure you have installed docker engine as in [here](https://docs.docker.com/engine/install/ubuntu/) for ubuntu system.
- * URL for the docker image is [https://hub.docker.com/r/kenanmorani/nst_for_gen/tags](https://hub.docker.com/r/kenanmorani/nst_for_gen/tags).      
+ * To pull the docker image from dockerhub, make sure you have installed docker engine as in [here](https://docs.docker.com/engine/install/ubuntu/) for ubuntu system. <br/>
+URL for the docker image is [https://hub.docker.com/r/kenanmorani/nst_for_gen/tags](https://hub.docker.com/r/kenanmorani/nst_for_gen/tags).      
 #### Run the container:
 * You need to download the "assets" folder to your local directory and "cd" your local directory to run the following commands from your local directory which contain the "assets" folder.
 * To try the algorithm on your own images and masks, you need to replace the images samples in the folders with your own.
