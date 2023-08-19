@@ -76,8 +76,8 @@ $ python src/eval.py --content_dir "assets/dataset/masks" --style_dir "assets/da
 _For installation with Docker Image, run the container and the following command in it:_
 ```bash
 # . $bashrc  >/dev/null && conda activate env-torch  >/dev/null && cd /NST_for_Gen && python src/eval.py --content_dir "assets/dataset/masks" --style_dir "assets/dataset/data"
-```
-<br/>
+``` 
+
 ## Acknowledgement
 * This work is supported by the Scientific and Technological Research Council of Turkey (TUBITAK) under grant no 119E578.
 * The data used in this study is collected under the Marie Curie IRG grant (no: FP7 PIRG08-GA-2010-27697).
