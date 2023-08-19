@@ -29,12 +29,7 @@ You need to firstly request the docekr image from dockerhub, secondly build a do
   >   $ sudo docker pull kenanmorani/nst_for_gen:latest
 * The docker image includes full algorithm (generating part and training and testing segmetnation part). Thus, pulling the image could take up to three hours.
      
- * To pull the docker image from dockerhub, make sure you have installed docker engine as in [here](https://docs.docker.com/engine/install/ubuntu/) for ubuntu system. 
- You also need to log in to our dockerhub account with the username ID {kenanmorani} and the password; *please send an email to request the password*.
- 
-     > $ sudo docker login <br>
-       > username kenanmorani <br>
-       > password <Tubitak119e578>
+ * To pull the docker image from dockerhub, make sure you have installed docker engine as in [here](https://docs.docker.com/engine/install/ubuntu/) for ubuntu system.
        
 #### Run the container:
 * You need to download the "assets" folder to your local directory and "cd" your local directory to run the following commands from your local directory which contain the "assets" folder.
