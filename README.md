@@ -27,7 +27,7 @@ You need to firstly request the docekr image from dockerhub, secondly build a do
 
 #### Request the docker image using the command:
   >   $ sudo docker pull kenanmorani/nst_for_gen:latest
-* The docker image includes full algorithm; generation part, and training and testing segmetnation part. Thus, pulling the image may take long depending.
+* The docker image includes full algorithm; generation part, and training and testing segmetnation part. Thus, pulling the image may take some time.
      
  * To pull the docker image from dockerhub, make sure you have installed docker engine as in [here](https://docs.docker.com/engine/install/ubuntu/) for ubuntu system. <br/> <br/>
 URL for the docker image is [https://hub.docker.com/r/kenanmorani/nst_for_gen/tags](https://hub.docker.com/r/kenanmorani/nst_for_gen/tags).      
