@@ -83,7 +83,7 @@ _For installation with Docker Image, run the container and the following command
 * The data used in this study is collected under the Marie Curie IRG grant (no: FP7 PIRG08-GA-2010-27697).
 ## Citation
 If you find the work useful, please consider citing the paper:  
-
+>
 @incollection{erdem2023automated, <br/>
   title={Automated analysis of phase-contrast optical microscopy time-lapse images: application to wound healing and cell motility assays of breast cancer}, <br/>
   author={Erdem, Yusuf Sait and Ayanzadeh, Aydin and Mayal{\i}, Berkay and Bal{\i}k{\c{c}}i, Muhammed and Belli, {\"O}zge Nur and U{\c{c}}ar, Mahmut and {\"O}zyusal, {\"O}zden Yal{\c{c}}{\i}n and Okvur, Devrim Pesen and {\"O}nal, Sevgi and Morani, Kenan and others}, <br/>
